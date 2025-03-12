@@ -1,0 +1,1596 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Africa",
+      "countriesCount": 54,
+      "areaKm2": 30370000,
+      "population": 1340598000,
+      "continentId": 6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eeEFkGfQiqLuEgeXf5vpyMUDExoYNbw8_w&s"
+    },
+    {
+      "id": 2,
+      "name": "Asia",
+      "countriesCount": 49,
+      "areaKm2": 44579000,
+      "population": 4600000000,
+      "continentId": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRThfGGf1l-M_DuP9ukNdkLRYKkzOQexxSq2w&s"
+    },
+    {
+      "id": 3,
+
+      "name": "Europe",
+      "countriesCount": 44,
+      "areaKm2": 10180000,
+      "population": 748000000,
+      "continentId": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRohIkceAjZQqvA9Hf-FvaywSbIYR3YsaHTuw&s"
+    },
+    {
+      "id": 4,
+      "name": "North America",
+      "countriesCount": 23,
+      "areaKm2": 24709000,
+      "population": 579000000,
+      "continentId": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6RjSncZ8HUkp5_VE918_7EZnDF2u3dkhfew&s"
+    },
+    {
+      "id": 5,
+      "name": "South America",
+      "countriesCount": 12,
+      "areaKm2": 17840000,
+      "population": 423000000,
+      "continentId": 4,
+      "image": "https://www.whatarethe7continents.com/wp-content/uploads/2011/12/continent-of-south-america.png"
+    },
+    {
+      "id": 6,
+      "name": "Australia (Oceania)",
+      "countriesCount": 14,
+      "areaKm2": 8600000,
+      "population": 43000000,
+      "continentId": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk7FS5f4052pjvCdr0JYeEiXKWTZbPxKmpng&s"
+    },
+    {
+      "id": 7,
+      "name": "Antarctica",
+      "countriesCount": 0,
+      "areaKm2": 14000000,
+      "population": 1000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnzOZcyUCNpSWNeEWRtOnsXFimlpnLu7nA4g&s"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Albania",
+      "capital": "Tirana",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/1280px-Flag_of_Albania.svg.png"
+    },
+    {
+      "id": 2,
+      "name": "Andorra",
+      "capital": "Andorra la Vella",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/1200px-Flag_of_Andorra.svg.png"
+    },
+    {
+      "id": 3,
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "continentId": 3,
+      "flag": "https://www.colonialflag.com/cdn/shop/products/armenia-flag__36988.1639690361.1280.1280.jpg?v=1673389356"
+    },
+    {
+      "id": 4,
+      "name": "Austria",
+      "capital": "Vienna",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/800px-Flag_of_Austria.svg.png"
+    },
+    {
+      "id": 5,
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1200px-Flag_of_Azerbaijan.svg.png"
+    },
+    {
+      "id": 6,
+      "name": "Belarus",
+      "capital": "Minsk",
+      "continentId": 3,
+      "flag": "https://img.freepik.com/premium-photo/belarus-national-fabric-flag-textile_113767-1585.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Belgium",
+      "capital": "Brussels",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/2363px-Flag_of_Belgium.svg.png"
+    },
+    {
+      "id": 8,
+      "name": "Bosnia and Herzegovina",
+      "capital": "Sarajevo",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg"
+    },
+    {
+      "id": 9,
+      "name": "Bulgaria",
+      "capital": "Sofia",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/2560px-Flag_of_Bulgaria.svg.png"
+    },
+    {
+      "id": 10,
+      "name": "Croatia",
+      "capital": "Zagreb",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/1024px-Flag_of_Croatia.svg.png"
+    },
+    {
+      "id": 11,
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1200px-Flag_of_Cyprus.svg.png"
+    },
+    {
+      "id": 12,
+      "name": "Czech Republic",
+      "capital": "Prague",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1200px-Flag_of_the_Czech_Republic.svg.png"
+    },
+    {
+      "id": 13,
+      "name": "Denmark",
+      "capital": "Copenhagen",
+      "continentId": 3,
+      "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMD7mUigrxGB7pF8MTxdTQGr2qwLLjUlFj9Q&s"
+    },
+    {
+      "id": 14,
+      "name": "Estonia",
+      "capital": "Tallinn",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/1200px-Flag_of_Estonia.svg.png"
+    },
+    {
+      "id": 15,
+      "name": "Finland",
+      "capital": "Helsinki",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg"
+    },
+    {
+      "id": 16,
+      "name": "France",
+      "capital": "Paris",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png",
+      "countryId": 1
+    },
+    {
+      "id": 17,
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/1200px-Flag_of_Georgia.svg.png"
+    },
+    {
+      "id": 18,
+      "name": "Germany",
+      "capital": "Berlin",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/640px-Flag_of_Germany.svg.png",
+      "countryId": 2
+    },
+    {
+      "id": 19,
+      "name": "Greece",
+      "capital": "Athens",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/2560px-Flag_of_Greece.svg.png"
+    },
+    {
+      "id": 20,
+      "name": "Hungary",
+      "capital": "Budapest",
+      "continentId": 3,
+      "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOz4btuvELF6tN1Fn7KZzKP477n1YaaJRUag&s"
+    },
+    {
+      "id": 21,
+      "name": "Iceland",
+      "capital": "Reykjavik",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/2560px-Flag_of_Iceland.svg.png"
+    },
+    {
+      "id": 22,
+      "name": "Ireland",
+      "capital": "Dublin",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg"
+    },
+    {
+      "id": 23,
+      "name": "Italy",
+      "capital": "Rome",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png",
+      "countryId": 3
+    },
+    {
+      "id": 24,
+      "name": "Kazakhstan",
+      "capital": "Nur-Sultan",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1280px-Flag_of_Kazakhstan.svg.png"
+    },
+    {
+      "id": 25,
+      "name": "Kosovo",
+      "capital": "Pristina",
+      "continentId": 3,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg"
+    },
+    {
+      "id": 26,
+      "name": "Latvia",
+      "capital": "Riga",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_lg-flag.gif"
+    },
+    {
+      "id": 27,
+      "name": "Liechtenstein",
+      "capital": "Vaduz",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ls-flag.gif"
+    },
+    {
+      "id": 28,
+      "name": "Lithuania",
+      "capital": "Vilnius",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_lh-flag.gif"
+    },
+    {
+      "id": 29,
+      "name": "Luxembourg",
+      "capital": "Luxembourg City",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_lu-flag.gif"
+    },
+    {
+      "id": 30,
+      "name": "Malta",
+      "capital": "Valletta",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mt-flag.gif"
+    },
+    {
+      "id": 31,
+      "name": "Moldova",
+      "capital": "Chisinau",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_md-flag.gif"
+    },
+    {
+      "id": 32,
+      "name": "Monaco",
+      "capital": "Monaco",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mn-flag.gif"
+    },
+    {
+      "id": 33,
+      "name": "Montenegro",
+      "capital": "Podgorica",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mj-flag.gif"
+    },
+    {
+      "id": 34,
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_nl-flag.gif"
+    },
+    {
+      "id": 35,
+      "name": "North Macedonia",
+      "capital": "Skopje",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mk-flag.gif"
+    },
+    {
+      "id": 36,
+      "name": "Norway",
+      "capital": "Oslo",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_no-flag.gif"
+    },
+    {
+      "id": 37,
+      "name": "Poland",
+      "capital": "Warsaw",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pl-flag.gif"
+    },
+    {
+      "id": 38,
+      "name": "Portugal",
+      "capital": "Lisbon",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_po-flag.gif"
+    },
+    {
+      "id": 39,
+      "name": "Romania",
+      "capital": "Bucharest",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ro-flag.gif"
+    },
+    {
+      "id": 40,
+      "name": "Russia",
+      "capital": "Moscow",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_rs-flag.gif"
+    },
+    {
+      "id": 41,
+      "name": "San Marino",
+      "capital": "San Marino",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sm-flag.gif"
+    },
+    {
+      "id": 42,
+      "name": "Serbia",
+      "capital": "Belgrade",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ri-flag.gif"
+    },
+    {
+      "id": 43,
+      "name": "Slovakia",
+      "capital": "Bratislava",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_lo-flag.gif"
+    },
+    {
+      "id": 44,
+      "name": "Slovenia",
+      "capital": "Ljubljana",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_si-flag.gif"
+    },
+    {
+      "id": 45,
+      "name": "Spain",
+      "capital": "Madrid",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sp-flag.gif"
+    },
+    {
+      "id": 46,
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sw-flag.gif"
+    },
+    {
+      "id": 47,
+      "name": "Switzerland",
+      "capital": "Bern",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sz-flag.gif"
+    },
+    {
+      "id": 48,
+      "name": "Turkey",
+      "capital": "Ankara",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tu-flag.gif"
+    },
+    {
+      "id": 49,
+      "name": "Ukraine",
+      "capital": "Kyiv",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_up-flag.gif"
+    },
+    {
+      "id": 50,
+      "name": "United Kingdom",
+      "capital": "London",
+      "continentId": 3,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_uk-flag.gif"
+    },
+    {
+      "id": 51,
+      "name": "Vatican City",
+      "capital": "Vatican City",
+      "continentId": 3,
+      "flag": ""
+    },
+    {
+      "id": 52,
+      "name": "Afghanistan",
+      "capital": "Kabul",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_af-flag.gif"
+    },
+    {
+      "id": 53,
+      "name": "Armenia",
+      "capital": "Yerevan",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_am-flag.gif"
+    },
+    {
+      "id": 54,
+      "name": "Azerbaijan",
+      "capital": "Baku",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_aj-flag.gif"
+    },
+    {
+      "id": 55,
+      "name": "Bahrain",
+      "capital": "Manama",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ba-flag.gif"
+    },
+    {
+      "id": 56,
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bg-flag.gif"
+    },
+    {
+      "id": 57,
+      "name": "Bhutan",
+      "capital": "Thimphu",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bt-flag.gif"
+    },
+    {
+      "id": 58,
+      "name": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bx-flag.gif"
+    },
+    {
+      "id": 59,
+      "name": "Cambodia",
+      "capital": "Phnom Penh",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cb-flag.gif"
+    },
+    {
+      "id": 60,
+      "name": "China",
+      "capital": "Beijing",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ch-flag.gif"
+    },
+    {
+      "id": 61,
+      "name": "Cyprus",
+      "capital": "Nicosia",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cy-flag.gif"
+    },
+    {
+      "id": 62,
+      "name": "Georgia",
+      "capital": "Tbilisi",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_gg-flag.gif"
+    },
+    {
+      "id": 63,
+      "name": "India",
+      "capital": "New Delhi",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_in-flag.gif"
+    },
+    {
+      "id": 64,
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_id-flag.gif"
+    },
+    {
+      "id": 65,
+      "name": "Iran",
+      "capital": "Tehran",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ir-flag.gif"
+    },
+    {
+      "id": 66,
+      "name": "Iraq",
+      "capital": "Baghdad",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_iz-flag.gif"
+    },
+    {
+      "id": 67,
+      "name": "Israel",
+      "capital": "Jerusalem",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_is-flag.gif"
+    },
+    {
+      "id": 68,
+      "name": "Japan",
+      "capital": "Tokyo",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ja-flag.gif"
+    },
+    {
+      "id": 69,
+      "name": "Jordan",
+      "capital": "Amman",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_jo-flag.gif"
+    },
+    {
+      "id": 70,
+      "name": "Kazakhstan",
+      "capital": "Nur-Sultan",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_kz-flag.gif"
+    },
+    {
+      "id": 71,
+      "name": "Kuwait",
+      "capital": "Kuwait City",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ku-flag.gif"
+    },
+    {
+      "id": 72,
+      "name": "Kyrgyzstan",
+      "capital": "Bishkek",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_kg-flag.gif"
+    },
+    {
+      "id": 73,
+      "name": "Laos",
+      "capital": "Vientiane",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_la-flag.gif"
+    },
+    {
+      "id": 74,
+      "name": "Lebanon",
+      "capital": "Beirut",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_le-flag.gif"
+    },
+    {
+      "id": 75,
+      "name": "Malaysia",
+      "capital": "Kuala Lumpur",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_my-flag.gif"
+    },
+    {
+      "id": 76,
+      "name": "Maldives",
+      "capital": "Malé",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mv-flag.gif"
+    },
+    {
+      "id": 77,
+      "name": "Mongolia",
+      "capital": "Ulaanbaatar",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mg-flag.gif"
+    },
+    {
+      "id": 78,
+      "name": "Myanmar",
+      "capital": "Naypyidaw",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bm-flag.gif"
+    },
+    {
+      "id": 79,
+      "name": "Nepal",
+      "capital": "Kathmandu",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_np-flag.gif"
+    },
+    {
+      "id": 80,
+      "name": "North Korea",
+      "capital": "Pyongyang",
+      "continentId": 2,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/2560px-Flag_of_North_Korea.svg.png"
+    },
+    {
+      "id": 81,
+      "name": "Oman",
+      "capital": "Muscat",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mu-flag.gif"
+    },
+    {
+      "id": 82,
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pk-flag.gif"
+    },
+    {
+      "id": 83,
+      "name": "Palestine",
+      "capital": "Ramallah",
+      "continentId": 2,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/640px-Flag_of_Palestine.svg.png"
+    },
+    {
+      "id": 84,
+      "name": "Philippines",
+      "capital": "Manila",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_rp-flag.gif"
+    },
+    {
+      "id": 85,
+      "name": "Qatar",
+      "capital": "Doha",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_qa-flag.gif"
+    },
+    {
+      "id": 86,
+      "name": "Russia",
+      "capital": "Moscow",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_rs-flag.gif"
+    },
+    {
+      "id": 87,
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sa-flag.gif"
+    },
+    {
+      "id": 88,
+      "name": "Singapore",
+      "capital": "Singapore",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sn-flag.gif"
+    },
+    {
+      "id": 89,
+      "name": "South Korea",
+      "capital": "Seoul",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ks-flag.gif"
+    },
+    {
+      "id": 90,
+      "name": "Sri Lanka",
+      "capital": "Colombo",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ce-flag.gif"
+    },
+    {
+      "id": 91,
+      "name": "Syria",
+      "capital": "Damascus",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sy-flag.gif"
+    },
+    {
+      "id": 92,
+      "name": "Tajikistan",
+      "capital": "Dushanbe",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ti-flag.gif"
+    },
+    {
+      "id": 93,
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_th-flag.gif"
+    },
+    {
+      "id": 94,
+      "name": "Timor-Leste",
+      "capital": "Dili",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tt-flag.gif"
+    },
+    {
+      "id": 95,
+      "name": "Turkey",
+      "capital": "Ankara",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tu-flag.gif"
+    },
+    {
+      "id": 96,
+      "name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tx-flag.gif"
+    },
+    {
+      "id": 97,
+      "name": "United Arab Emirates",
+      "capital": "Abu Dhabi",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ae-flag.gif"
+    },
+    {
+      "id": 98,
+      "name": "Uzbekistan",
+      "capital": "Tashkent",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_uz-flag.gif"
+    },
+    {
+      "id": 99,
+      "name": "Vietnam",
+      "capital": "Hanoi",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_vm-flag.gif"
+    },
+    {
+      "id": 100,
+      "name": "Yemen",
+      "capital": "Sana'a",
+      "continentId": 2,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ym-flag.gif"
+    },
+    {
+      "id": 101,
+      "name": "Australia",
+      "capital": "Canberra",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_as-flag.gif"
+    },
+    {
+      "id": 102,
+      "name": "Fiji",
+      "capital": "Suva",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_fj-flag.gif"
+    },
+    {
+      "id": 103,
+      "name": "Kiribati",
+      "capital": "Tarawa",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_kr-flag.gif"
+    },
+    {
+      "id": 104,
+      "name": "Marshall Islands",
+      "capital": "Majuro",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_rm-flag.gif"
+    },
+    {
+      "id": 105,
+      "name": "Micronesia",
+      "capital": "Palikir",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_fm-flag.gif"
+    },
+    {
+      "id": 106,
+      "name": "Nauru",
+      "capital": "Yaren",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_nr-flag.gif"
+    },
+    {
+      "id": 107,
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_nz-flag.gif"
+    },
+    {
+      "id": 108,
+      "name": "Palau",
+      "capital": "Ngerulmud",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ps-flag.gif"
+    },
+    {
+      "id": 109,
+      "name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pp-flag.gif"
+    },
+    {
+      "id": 110,
+      "name": "Samoa",
+      "capital": "Apia",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ws-flag.gif"
+    },
+    {
+      "id": 111,
+      "name": "Solomon Islands",
+      "capital": "Honiara",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bp-flag.gif"
+    },
+    {
+      "id": 112,
+      "name": "Tonga",
+      "capital": "Nuku'alofa",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tn-flag.gif"
+    },
+    {
+      "id": 113,
+      "name": "Tuvalu",
+      "capital": "Funafuti",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tv-flag.gif"
+    },
+    {
+      "id": 114,
+      "name": "Vanuatu",
+      "capital": "Port Vila",
+      "continentId": 1,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_nh-flag.gif"
+    },
+    {
+      "id": 115,
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ar-flag.gif"
+    },
+    {
+      "id": 116,
+      "name": "Bolivia",
+      "capital": "Sucre",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bl-flag.gif"
+    },
+    {
+      "id": 117,
+      "name": "Brazil",
+      "capital": "Brasília",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_br-flag.gif"
+    },
+    {
+      "id": 118,
+      "name": "Chile",
+      "capital": "Santiago",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ci-flag.gif"
+    },
+    {
+      "id": 119,
+      "name": "Colombia",
+      "capital": "Bogotá",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_co-flag.gif"
+    },
+    {
+      "id": 120,
+      "name": "Ecuador",
+      "capital": "Quito",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ec-flag.gif"
+    },
+    {
+      "id": 121,
+      "name": "Guyana",
+      "capital": "Georgetown",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_gy-flag.gif"
+    },
+    {
+      "id": 122,
+      "name": "Paraguay",
+      "capital": "Asunción",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pa-flag.gif"
+    },
+    {
+      "id": 123,
+      "name": "Peru",
+      "capital": "Lima",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pe-flag.gif"
+    },
+    {
+      "id": 124,
+      "name": "Suriname",
+      "capital": "Paramaribo",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ns-flag.gif"
+    },
+    {
+      "id": 125,
+      "name": "Uruguay",
+      "capital": "Montevideo",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_uy-flag.gif"
+    },
+    {
+      "id": 126,
+      "name": "Venezuela",
+      "capital": "Caracas",
+      "continentId": 4,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ve-flag.gif"
+    },
+    {
+      "id": 127,
+      "name": "Antigua and Barbuda",
+      "capital": "Saint John's",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ac-flag.gif"
+    },
+    {
+      "id": 128,
+      "name": "Bahamas",
+      "capital": "Nassau",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bf-flag.gif"
+    },
+    {
+      "id": 129,
+      "name": "Barbados",
+      "capital": "Bridgetown",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bb-flag.gif"
+    },
+    {
+      "id": 130,
+      "name": "Belize",
+      "capital": "Belmopan",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bh-flag.gif"
+    },
+    {
+      "id": 131,
+      "name": "Canada",
+      "capital": "Ottawa",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ca-flag.gif"
+    },
+    {
+      "id": 132,
+      "name": "Costa Rica",
+      "capital": "San José",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cs-flag.gif"
+    },
+    {
+      "id": 133,
+      "name": "Cuba",
+      "capital": "Havana",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cu-flag.gif"
+    },
+    {
+      "id": 134,
+      "name": "Dominica",
+      "capital": "Roseau",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_do-flag.gif"
+    },
+    {
+      "id": 135,
+      "name": "Dominican Republic",
+      "capital": "Santo Domingo",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_dr-flag.gif"
+    },
+    {
+      "id": 136,
+      "name": "El Salvador",
+      "capital": "San Salvador",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_es-flag.gif"
+    },
+    {
+      "id": 137,
+      "name": "Grenada",
+      "capital": "St. George's",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_gj-flag.gif"
+    },
+    {
+      "id": 138,
+      "name": "Guatemala",
+      "capital": "Guatemala City",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_gt-flag.gif"
+    },
+    {
+      "id": 139,
+      "name": "Haiti",
+      "capital": "Port-au-Prince",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ha-flag.gif"
+    },
+    {
+      "id": 140,
+      "name": "Honduras",
+      "capital": "Tegucigalpa",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ho-flag.gif"
+    },
+    {
+      "id": 141,
+      "name": "Jamaica",
+      "capital": "Kingston",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_jm-flag.gif"
+    },
+    {
+      "id": 142,
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mx-flag.gif"
+    },
+    {
+      "id": 143,
+      "name": "Nicaragua",
+      "capital": "Managua",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_nu-flag.gif"
+    },
+    {
+      "id": 144,
+      "name": "Panama",
+      "capital": "Panama City",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pm-flag.gif"
+    },
+    {
+      "id": 145,
+      "name": "Saint Kitts and Nevis",
+      "capital": "Basseterre",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sc-flag.gif"
+    },
+    {
+      "id": 146,
+      "name": "Saint Lucia",
+      "capital": "Castries",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_st-flag.gif"
+    },
+    {
+      "id": 147,
+      "name": "Saint Vincent and the Grenadines",
+      "capital": "Kingstown",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_vc-flag.gif"
+    },
+    {
+      "id": 148,
+      "name": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_td-flag.gif"
+    },
+    {
+      "id": 149,
+      "name": "United States",
+      "capital": "Washington, D.C.",
+      "continentId": 5,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
+    },
+    {
+      "id": 150,
+      "name": "Algeria",
+      "capital": "Algiers",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ag-flag.gif"
+    },
+    {
+      "id": 151,
+      "name": "Angola",
+      "capital": "Luanda",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ao-flag.gif"
+    },
+    {
+      "id": 152,
+      "name": "Benin",
+      "capital": "Porto-Novo",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bn-flag.gif"
+    },
+    {
+      "id": 153,
+      "name": "Botswana",
+      "capital": "Gaborone",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_bc-flag.gif"
+    },
+    {
+      "id": 154,
+      "name": "Burkina Faso",
+      "capital": "Ouagadougou",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_uv-flag.gif"
+    },
+    {
+      "id": 155,
+      "name": "Burundi",
+      "capital": "Bujumbura",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_by-flag.gif"
+    },
+    {
+      "id": 156,
+      "name": "Cabo Verde",
+      "capital": "Praia",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cv-flag.gif"
+    },
+    {
+      "id": 157,
+      "name": "Cameroon",
+      "capital": "Yaoundé",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cm-flag.gif"
+    },
+    {
+      "id": 158,
+      "name": "Central African Republic",
+      "capital": "Bangui",
+      "continentId": 6,
+      "flag": ""
+    },
+    {
+      "id": 159,
+      "name": "Chad",
+      "capital": "N'Djamena",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cd-flag.gif"
+    },
+    {
+      "id": 160,
+      "name": "Comoros",
+      "capital": "Moroni",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cn-flag.gif"
+    },
+    {
+      "id": 161,
+      "name": "Congo (Republic of the Congo)",
+      "capital": "Brazzaville",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_cg-flag.gif"
+    },
+    {
+      "id": 162,
+      "name": "Democratic Republic of the Congo",
+      "capital": "Kinshasa",
+      "continentId": 6,
+      "flag": ""
+    },
+    {
+      "id": 163,
+      "name": "Djibouti",
+      "capital": "Djibouti City",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_dj-flag.gif"
+    },
+    {
+      "id": 164,
+      "name": "Egypt",
+      "capital": "Cairo",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_eg-flag.gif"
+    },
+    {
+      "id": 165,
+      "name": "Equatorial Guinea",
+      "capital": "Malabo",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ek-flag.gif"
+    },
+    {
+      "id": 166,
+      "name": "Eritrea",
+      "capital": "Asmara",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_er-flag.gif"
+    },
+    {
+      "id": 167,
+      "name": "Eswatini",
+      "capital": "Mbabane",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_wz-flag.gif"
+    },
+    {
+      "id": 168,
+      "name": "Ethiopia",
+      "capital": "Addis Ababa",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_et-flag.gif"
+    },
+    {
+      "id": 169,
+      "name": "Gabon",
+      "capital": "Libreville",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_gb-flag.gif"
+    },
+    {
+      "id": 170,
+      "name": "Gambia",
+      "capital": "Banjul",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ga-flag.gif"
+    },
+    {
+      "id": 171,
+      "name": "Ghana",
+      "capital": "Accra",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_gh-flag.gif"
+    },
+    {
+      "id": 172,
+      "name": "Guinea",
+      "capital": "Conakry",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ek-flag.gif"
+    },
+    {
+      "id": 173,
+      "name": "Guinea-Bissau",
+      "capital": "Bissau",
+      "continentId": 6,
+      "flag": ""
+    },
+    {
+      "id": 174,
+      "name": "Ivory Coast",
+      "capital": "Yamoussoukro",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_iv-flag.gif"
+    },
+    {
+      "id": 175,
+      "name": "Kenya",
+      "capital": "Nairobi",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ke-flag.gif"
+    },
+    {
+      "id": 176,
+      "name": "Lesotho",
+      "capital": "Maseru",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_lt-flag.gif"
+    },
+    {
+      "id": 177,
+      "name": "Liberia",
+      "capital": "Monrovia",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_li-flag.gif"
+    },
+    {
+      "id": 178,
+      "name": "Libya",
+      "capital": "Tripoli",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ly-flag.gif"
+    },
+    {
+      "id": 179,
+      "name": "Madagascar",
+      "capital": "Antananarivo",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ma-flag.gif"
+    },
+    {
+      "id": 180,
+      "name": "Malawi",
+      "capital": "Lilongwe",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mi-flag.gif"
+    },
+    {
+      "id": 181,
+      "name": "Mali",
+      "capital": "Bamako",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ml-flag.gif"
+    },
+    {
+      "id": 182,
+      "name": "Mauritania",
+      "capital": "Nouakchott",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mr-flag.gif"
+    },
+    {
+      "id": 183,
+      "name": "Mauritius",
+      "capital": "Port Louis",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mp-flag.gif"
+    },
+    {
+      "id": 184,
+      "name": "Morocco",
+      "capital": "Rabat",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mo-flag.gif"
+    },
+    {
+      "id": 185,
+      "name": "Mozambique",
+      "capital": "Maputo",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_mz-flag.gif"
+    },
+    {
+      "id": 186,
+      "name": "Namibia",
+      "capital": "Windhoek",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_wa-flag.gif"
+    },
+    {
+      "id": 187,
+      "name": "Niger",
+      "capital": "Niamey",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ng-flag.gif"
+    },
+    {
+      "id": 188,
+      "name": "Nigeria",
+      "capital": "Abuja",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ni-flag.gif"
+    },
+    {
+      "id": 189,
+      "name": "Rwanda",
+      "capital": "Kigali",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_rw-flag.gif"
+    },
+    {
+      "id": 190,
+      "name": "São Tomé and Príncipe",
+      "capital": "São Tomé",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_tp-flag.gif"
+    },
+    {
+      "id": 191,
+      "name": "Senegal",
+      "capital": "Dakar",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sg-flag.gif"
+    },
+    {
+      "id": 192,
+      "name": "Seychelles",
+      "capital": "Victoria",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_se-flag.gif"
+    },
+    {
+      "id": 193,
+      "name": "Sierra Leone",
+      "capital": "Freetown",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sl-flag.gif"
+    },
+    {
+      "id": 194,
+      "name": "Somalia",
+      "capital": "Mogadishu",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_so-flag.gif"
+    },
+    {
+      "id": 195,
+      "name": "South Africa",
+      "capital": "Pretoria",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sf-flag.gif"
+    },
+    {
+      "id": 196,
+      "name": "South Sudan",
+      "capital": "Juba",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_od-flag.gif"
+    },
+    {
+      "id": 197,
+      "name": "Sudan",
+      "capital": "Khartoum",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_su-flag.gif"
+    },
+    {
+      "id": 198,
+      "name": "Togo",
+      "capital": "Lomé",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_to-flag.gif"
+    },
+    {
+      "id": 199,
+      "name": "Tunisia",
+      "capital": "Tunis",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ts-flag.gif"
+    },
+    {
+      "id": 200,
+      "name": "Uganda",
+      "capital": "Kampala",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_ug-flag.gif"
+    },
+    {
+      "id": 201,
+      "name": "Zambia",
+      "capital": "Lusaka",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_za-flag.gif"
+    },
+    {
+      "id": 202,
+      "name": "Zimbabwe",
+      "capital": "Harare",
+      "continentId": 6,
+      "flag": "https://www.worldometers.info/img/flags/small/tn_zi-flag.gif"
+    }
+  ],
+  "touristAttractions": [
+    {
+      "id": 1,
+      "name": "Eiffel Tower",
+      "city": "Paris",
+      "description": "The Eiffel Tower is one of the most famous landmarks in the world, located in the heart of Paris.",
+      "address": "Champ de Mars, 5 Avenue Anatole",
+      "image": "https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg",
+      "countryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Versailles Palace",
+      "city": "Versailles",
+      "description": "The Palace of Versailles is a luxurious palace that served as the residence of French kings.",
+      "address": "Place d'Armes, 78000 Versailles",
+      "image": "https://en.chateauversailles.fr/sites/default/files/styles/reseaux_sociaux/public/visuels_principaux/dddddddddg_0_0.jpg?itok=sau1wGac",
+      "countryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Louvre Museum",
+      "city": "Paris",
+      "description": "The Louvre is one of the largest and most famous museums in the world, housing a vast collection of artworks.",
+      "address": "Rue de Rivoli, 75001 Paris",
+      "image": "https://www.relaisdulouvre.com/wp-content/uploads/2024/03/Louvre1-1024x682.jpg",
+      "countryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Mont Saint-Michel",
+      "city": "Normandy",
+      "description": "Mont Saint-Michel is a stunning island commune, known for its medieval architecture and beautiful views.",
+      "address": "50170 Mont Saint-Michel, Normandy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnn032a1krH26fsPWsKMe9t0AUh9kPNF-ow&s",
+      "countryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Brandenburg Gate",
+      "city": "Berlin",
+      "description": "The Brandenburg Gate is a neoclassical monument that became a symbol of the division and reunification of Germany.",
+      "address": "Pariser Platz, 10117 Berlin",
+      "image": "https://images.squarespace-cdn.com/content/v1/64ba44348b6a05559a816bc1/1690282629211-NTVSXV9U1G1NO7OHD4SN/Photographing+Brandenburg+Gate_0344.jpg",
+      "countryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Neuschwanstein Castle",
+      "city": "Schwangau",
+      "description": "Neuschwanstein Castle is a fairy-tale-like castle nestled in the Bavarian Alps, famous for its stunning architecture and views.",
+      "address": "Neuschwansteinstraße 20, 87645 Schwangau",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxTfoDvzFGOwlIAaxlYIVTMGZbYWSttMBO0A&s",
+      "countryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Cologne Cathedral",
+      "city": "Cologne",
+      "description": "The Cologne Cathedral is a Gothic masterpiece and one of the largest cathedrals in Europe, known for its stunning architecture.",
+      "address": "Domkloster 4, 50667 Köln",
+      "image": "https://img.ecmaps.de/remote/.jpg?url=https%3A%2F%2Fdam.destination.one%2F173310%2Fa164ccdb16477a3e603eec59c03627fdceb8528eb2c37005bde78f5d8fe4f23d%2F.jpg&scale=both&mode=crop&quality=90&width=1356&height=1920",
+      "countryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Black Forest",
+      "city": "Baden-Württemberg",
+      "description": "The Black Forest is a picturesque region known for its deep forests, charming villages, and scenic hiking trails.",
+      "address": "Baden-Württemberg, Germany",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwS1VPYUXMuU6QGfzQhW_K2tm4yw1kaeuMQ&s",
+      "countryId": 2
+    },
+    {
+      "id": 9,
+      "name": "Colosseum",
+      "city": "Rome",
+      "description": "The Colosseum is one of the greatest works of Roman engineering and architecture, an iconic symbol of Ancient Rome.",
+      "address": "Piazza del Colosseo, 00100 Roma",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_IXskPLpw76Wgz6HowNejbVmjyaGjsQsbFA&s",
+      "countryId": 3
+    },
+    {
+      "id": 10,
+      "name": "Leaning Tower of Pisa",
+      "city": "Pisa",
+      "description": "The Leaning Tower of Pisa is a freestanding bell tower of the cathedral in Pisa, famous for its unintended tilt.",
+      "address": "Piazza del Duomo, 56126 Pisa",
+      "image": "https://www.historyhit.com/app/uploads/bis-images/5149833/Leaning-Tower-of-Pisa-788x537.jpg?x28777",
+      "countryId": 3
+    },
+    {
+      "id": 11,
+      "name": "Vatican Museums",
+      "city": "Vatican City",
+      "description": "The Vatican Museums are among the most famous art museums in the world, housing extensive collections from the Roman Catholic Church.",
+      "address": "Viale Vaticano, 00120 Vatican City",
+      "image": "https://cdn-imgix.headout.com/media/images/87e30d84ba139665ecf3fda68284ef63-22010-rome-essential-sistine-chapel-tour--vatican-museums---st.-peter-s-basilica-04.jpg",
+      "countryId": 3
+    },
+    {
+      "id": 12,
+      "name": "Cinque Terre",
+      "city": "Liguria",
+      "description": "Cinque Terre is a rugged portion of coast on the Italian Riviera, known for its colorful villages and breathtaking views.",
+      "address": "Liguria, Italy",
+      "image": "https://media.istockphoto.com/id/479824818/photo/beautiful-colorful-cityscape.jpg?s=612x612&w=0&k=20&c=N-AYYwXLDXQC10uTu7SBYEpBrQIGi3pHuwNbOLuAETw=",
+      "countryId": 3
+    }
+  ]
+}
