@@ -29,6 +29,7 @@ export interface HistoricalEvent {
   title: string;
   description: string;
   year: number;
+  eventId: string;
 }
 
 export interface BestRatedCountry {
@@ -40,4 +41,15 @@ export interface BestRatedCountry {
   touristRating: number;
   description: string;
   flag: string;
+  countryId: string;
+  eventId: string;
+}
+
+export interface TouristAttraction {
+  id: number;
+  name: string;
+  city: string;
+  description: string;
+  address: string;
+  image: string;
 }

@@ -1,19 +1,19 @@
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 import { useHistoricalEvents } from "../pages/HistoricalEventsPage/HistoricalEventsPageContextProvider";
 import { HistoricalEvent } from "./Types";
 
-interface HistoricalEventItemProps {
-  historicalEvent: HistoricalEvent;
-}
+interface HistoricalEventItemProps extends HistoricalEvent {}
 const HistoricalEventItem: React.FC<HistoricalEventItemProps> = ({
-  historicalEvent,
+  id,
+  title,
+  description,
 }) => {
   const { deleteEvent } = useHistoricalEvents();
 
   const navigate = useNavigate();
 
   const handleEditClick = () => {
-    navigate(`/editEvent/${historicalEvent.id}`);
+    navigate(`/editEvent/${id}`);
   };
 
   return (
@@ -27,12 +27,12 @@ const HistoricalEventItem: React.FC<HistoricalEventItemProps> = ({
       }}
     >
       <p>
-        <strong>Event title:</strong> {historicalEvent.title}
+        <strong>Event title:</strong> {title}
       </p>
 
-      <p>{historicalEvent.description}</p>
+      <p>{description}</p>
       <button
-        onClick={() => deleteEvent(historicalEvent.id)}
+        onClick={() => deleteEvent(id)}
         style={{
           background: "red",
           color: "white",

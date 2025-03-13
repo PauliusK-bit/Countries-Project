@@ -1492,7 +1492,7 @@
       "description": "The Eiffel Tower is one of the most famous landmarks in the world, located in the heart of Paris.",
       "address": "Champ de Mars, 5 Avenue Anatole",
       "image": "https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg",
-      "countryId": 1
+      "countryId": "1"
     },
     {
       "id": 2,
@@ -1501,7 +1501,7 @@
       "description": "The Palace of Versailles is a luxurious palace that served as the residence of French kings.",
       "address": "Place d'Armes, 78000 Versailles",
       "image": "https://en.chateauversailles.fr/sites/default/files/styles/reseaux_sociaux/public/visuels_principaux/dddddddddg_0_0.jpg?itok=sau1wGac",
-      "countryId": 1
+      "countryId": "1"
     },
     {
       "id": 3,
@@ -1510,7 +1510,7 @@
       "description": "The Louvre is one of the largest and most famous museums in the world, housing a vast collection of artworks.",
       "address": "Rue de Rivoli, 75001 Paris",
       "image": "https://www.relaisdulouvre.com/wp-content/uploads/2024/03/Louvre1-1024x682.jpg",
-      "countryId": 1
+      "countryId": "1"
     },
     {
       "id": 4,
@@ -1519,7 +1519,7 @@
       "description": "Mont Saint-Michel is a stunning island commune, known for its medieval architecture and beautiful views.",
       "address": "50170 Mont Saint-Michel, Normandy",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlnn032a1krH26fsPWsKMe9t0AUh9kPNF-ow&s",
-      "countryId": 1
+      "countryId": "1"
     },
     {
       "id": 5,
@@ -1528,7 +1528,7 @@
       "description": "The Brandenburg Gate is a neoclassical monument that became a symbol of the division and reunification of Germany.",
       "address": "Pariser Platz, 10117 Berlin",
       "image": "https://images.squarespace-cdn.com/content/v1/64ba44348b6a05559a816bc1/1690282629211-NTVSXV9U1G1NO7OHD4SN/Photographing+Brandenburg+Gate_0344.jpg",
-      "countryId": 2
+      "countryId": "2"
     },
     {
       "id": 6,
@@ -1537,7 +1537,7 @@
       "description": "Neuschwanstein Castle is a fairy-tale-like castle nestled in the Bavarian Alps, famous for its stunning architecture and views.",
       "address": "Neuschwansteinstraße 20, 87645 Schwangau",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxTfoDvzFGOwlIAaxlYIVTMGZbYWSttMBO0A&s",
-      "countryId": 2
+      "countryId": "2"
     },
     {
       "id": 7,
@@ -1546,7 +1546,7 @@
       "description": "The Cologne Cathedral is a Gothic masterpiece and one of the largest cathedrals in Europe, known for its stunning architecture.",
       "address": "Domkloster 4, 50667 Köln",
       "image": "https://img.ecmaps.de/remote/.jpg?url=https%3A%2F%2Fdam.destination.one%2F173310%2Fa164ccdb16477a3e603eec59c03627fdceb8528eb2c37005bde78f5d8fe4f23d%2F.jpg&scale=both&mode=crop&quality=90&width=1356&height=1920",
-      "countryId": 2
+      "countryId": "2"
     },
     {
       "id": 8,
@@ -1555,7 +1555,7 @@
       "description": "The Black Forest is a picturesque region known for its deep forests, charming villages, and scenic hiking trails.",
       "address": "Baden-Württemberg, Germany",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwS1VPYUXMuU6QGfzQhW_K2tm4yw1kaeuMQ&s",
-      "countryId": 2
+      "countryId": "2"
     },
     {
       "id": 9,
@@ -1564,7 +1564,7 @@
       "description": "The Colosseum is one of the greatest works of Roman engineering and architecture, an iconic symbol of Ancient Rome.",
       "address": "Piazza del Colosseo, 00100 Roma",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_IXskPLpw76Wgz6HowNejbVmjyaGjsQsbFA&s",
-      "countryId": 3
+      "countryId": "3"
     },
     {
       "id": 10,
@@ -1573,7 +1573,7 @@
       "description": "The Leaning Tower of Pisa is a freestanding bell tower of the cathedral in Pisa, famous for its unintended tilt.",
       "address": "Piazza del Duomo, 56126 Pisa",
       "image": "https://www.historyhit.com/app/uploads/bis-images/5149833/Leaning-Tower-of-Pisa-788x537.jpg?x28777",
-      "countryId": 3
+      "countryId": "3"
     },
     {
       "id": 11,
@@ -1582,7 +1582,7 @@
       "description": "The Vatican Museums are among the most famous art museums in the world, housing extensive collections from the Roman Catholic Church.",
       "address": "Viale Vaticano, 00120 Vatican City",
       "image": "https://cdn-imgix.headout.com/media/images/87e30d84ba139665ecf3fda68284ef63-22010-rome-essential-sistine-chapel-tour--vatican-museums---st.-peter-s-basilica-04.jpg",
-      "countryId": 3
+      "countryId": "3"
     },
     {
       "id": 12,
@@ -1591,42 +1591,294 @@
       "description": "Cinque Terre is a rugged portion of coast on the Italian Riviera, known for its colorful villages and breathtaking views.",
       "address": "Liguria, Italy",
       "image": "https://media.istockphoto.com/id/479824818/photo/beautiful-colorful-cityscape.jpg?s=612x612&w=0&k=20&c=N-AYYwXLDXQC10uTu7SBYEpBrQIGi3pHuwNbOLuAETw=",
-      "countryId": 3
+      "countryId": "3"
     },
     {
       "id": 13,
       "name": "Mount Fuji",
       "description": "The highest mountain in Japan and one of the country's most iconic symbols.",
       "image": "https://res.cloudinary.com/jnto/image/upload/w_750,h_503,fl_lossy,f_auto/v1531981666/fujiguide/SG010_6",
-      "countryId": 4
+      "countryId": "4"
     },
     {
       "id": 14,
       "name": "Kyoto Temples",
       "description": "Historic temples and gardens reflecting Japan's rich cultural heritage.",
       "image": "https://www.tripsavvy.com/thmb/ANwL84MhMA-jShq3HkXedD0wSck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-530105220-5c337bae46e0fb00012fcdfb.jpg",
-      "countryId": 4
+      "countryId": "4"
     },
     {
       "id": 15,
       "name": "Tokyo Tower",
       "description": "An iconic TV tower offering stunning views of the city skyline.",
       "image": "https://asset.japan.travel/image/upload/v1646014276/tokyo/H_00658_001.jpg",
-      "countryId": 4
+      "countryId": "4"
     },
     {
       "id": 16,
       "name": "Hiroshima Peace Memorial Museum",
       "description": "A museum dedicated to the history of the Hiroshima bombing and the importance of peace.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1j5qluwBetuPSHMUhQ23au8kb7EkeEXl3hg&s",
-      "countryId": 4
+      "countryId": "4"
     },
     {
       "id": 17,
       "name": "Osaka Castle",
       "description": "A famous historical castle surrounded by beautiful parks and gardens.",
       "image": "https://www.japan-guide.com/g18/4000_top.jpg",
-      "countryId": 4
+      "countryId": "4"
+    },
+    {
+      "id": 3,
+      "name": "Preikestolen",
+      "city": "Rogaland",
+      "description": "A famous cliff with a flat top, offering breathtaking views over the Lysefjord.",
+      "address": "Preikestolen, Rogaland, Norway",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Preikestolen_2016.jpg",
+      "countryId": "5"
+    },
+    {
+      "id": 4,
+      "name": "Geirangerfjord",
+      "city": "Møre og Romsdal",
+      "description": "A stunning fjord known for its dramatic cliffs, waterfalls, and deep blue waters.",
+      "address": "Geirangerfjord, Norway",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Geirangerfjord_and_Seven_Sisters.jpg",
+      "countryId": "5"
+    },
+    {
+      "id": 5,
+      "name": "Trolltunga",
+      "city": "Vestland",
+      "description": "A unique rock formation that offers a spectacular view over the surrounding mountains and lakes.",
+      "address": "Trolltunga, Odda, Norway",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Trolltunga%2C_Odda%2C_Norwegen.jpg",
+      "countryId": "5"
+    },
+    {
+      "id": 6,
+      "name": "Lofoten Islands",
+      "city": "Northern Norway",
+      "description": "A stunning archipelago with dramatic cliffs, fjords, and picturesque fishing villages.",
+      "address": "Lofoten, Norway",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Reine_Fishing_Village.jpg",
+      "countryId": "5"
+    },
+    {
+      "id": 7,
+      "name": "Bryggen",
+      "city": "Bergen",
+      "description": "A historic harbor district in Bergen with colorful wooden houses, a UNESCO World Heritage site.",
+      "address": "Bryggen, 5003 Bergen, Norway",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bryggen_Bergen_01.jpg",
+      "countryId": "5"
+    },
+    {
+      "id": 8,
+      "name": "Geiranger Skywalk",
+      "city": "Geiranger",
+      "description": "A glass skywalk offering panoramic views of the stunning Geirangerfjord.",
+      "address": "Dalsnibba, 6216 Geiranger, Norway",
+      "image": "https://www.fjordnorway.com/images/JuB5dpPjQhz0bDkPfGVfYFdJSTU/2000/0/centre/20180712_Knut_Helliesent_5D_SR_Trollstigen-3.jpg",
+      "countryId": "5"
+    },
+    {
+      "id": "A1",
+      "name": "Sydney Opera House",
+      "city": "Sydney",
+      "description": "An iconic architectural marvel and performing arts center overlooking Sydney Harbour.",
+      "address": "Bennelong Point, Sydney NSW 2000, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Sydney_Opera_House_viewed_from_the_west.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A2",
+      "name": "Great Barrier Reef",
+      "city": "Queensland",
+      "description": "The world's largest coral reef system, home to diverse marine life and stunning coral formations.",
+      "address": "Great Barrier Reef, Queensland, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Great_Barrier_Reef.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A3",
+      "name": "Uluru (Ayers Rock)",
+      "city": "Northern Territory",
+      "description": "A massive sandstone monolith in the heart of Australia, sacred to the Anangu people.",
+      "address": "Uluru, Northern Territory, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Australia_Ayers_Rock.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A2",
+      "name": "Great Barrier Reef",
+      "city": "Queensland",
+      "description": "The world's largest coral reef system, home to diverse marine life and breathtaking underwater scenery.",
+      "address": "Great Barrier Reef, Queensland, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Great_Barrier_Reef_-_Flickr_-_eutrophication%26hypoxia_%283%29.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A3",
+      "name": "Sydney Opera House",
+      "city": "Sydney",
+      "description": "One of the most iconic buildings in the world, known for its distinctive sail-like design and vibrant arts scene.",
+      "address": "Bennelong Point, Sydney NSW 2000, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sydney_Opera_House_in_the_evening_-_Crop.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A4",
+      "name": "Great Ocean Road & Twelve Apostles",
+      "city": "Victoria",
+      "description": "A scenic coastal drive featuring stunning ocean views and the famous limestone stacks, the Twelve Apostles.",
+      "address": "Great Ocean Road, Victoria, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Twelve_Apostles_Luca_Galuzzi_2007.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A5",
+      "name": "Blue Mountains National Park",
+      "city": "New South Wales",
+      "description": "A breathtaking mountain range known for its blue haze, dramatic scenery, and the Three Sisters rock formation.",
+      "address": "Blue Mountains, NSW, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Three_Sisters_Katoomba.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A6",
+      "name": "Uluru-Kata Tjuta National Park",
+      "city": "Northern Territory",
+      "description": "A stunning national park home to Uluru and the domed rock formations of Kata Tjuta.",
+      "address": "Lasseter Hwy, Petermann NT 0872, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Kata_Tjuta_from_Ayers_Rock.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A7",
+      "name": "Daintree Rainforest",
+      "city": "Queensland",
+      "description": "A UNESCO-listed tropical rainforest home to diverse wildlife and stunning landscapes.",
+      "address": "Daintree National Park, Queensland, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Daintree_Rainforest_13.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A8",
+      "name": "Kangaroo Island",
+      "city": "South Australia",
+      "description": "A nature lover's paradise with stunning beaches, wildlife, and rugged landscapes.",
+      "address": "Kangaroo Island, South Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Remarkable_Rocks%2C_Kangaroo_Island.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A9",
+      "name": "Bondi Beach",
+      "city": "Sydney",
+      "description": "One of the world's most famous beaches, known for its golden sand, great surf, and vibrant coastal culture.",
+      "address": "Bondi Beach, Sydney, Australia",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bondi_Beach_Aerial_View.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "A10",
+      "name": "Great Ocean Road",
+      "city": "Victoria",
+      "description": "A stunning coastal drive with breathtaking cliffs, beaches, and the Twelve Apostles rock formation.",
+      "address": "Great Ocean Road, Victoria, Australia",
+      "image": "https://www.australiantraveller.com/wp-content/uploads/2017/04/great-ocean-road.jpg",
+      "countryId": "6"
+    },
+    {
+      "id": "G1",
+      "name": "Acropolis of Athens",
+      "city": "Athens",
+      "description": "An ancient citadel containing the remains of several historically significant buildings, including the Parthenon.",
+      "address": "Acropolis, Athens 105 58, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/View_of_the_Acropolis_Athens_%28187290539%29.jpeg",
+      "countryId": "7"
+    },
+    {
+      "id": "G2",
+      "name": "Santorini",
+      "city": "Santorini",
+      "description": "A stunning island known for its white-washed buildings, blue-domed churches, and breathtaking sunsets.",
+      "address": "Santorini, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Santorini_village_with_a_view.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G3",
+      "name": "Meteora Monasteries",
+      "city": "Kalambaka",
+      "description": "A collection of monasteries built on towering rock formations, offering breathtaking views and rich history.",
+      "address": "Meteora, Kalambaka 422 00, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Meteora_Monasteries.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G4",
+      "name": "Delphi",
+      "city": "Delphi",
+      "description": "An ancient sanctuary once considered the center of the world, home to the famous Oracle of Apollo.",
+      "address": "Delphi, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Delphi_Tholos_Temple.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G5",
+      "name": "Mykonos",
+      "city": "Mykonos",
+      "description": "A cosmopolitan island known for its vibrant nightlife, beautiful beaches, and iconic windmills.",
+      "address": "Mykonos, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Mykonos_Greece.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G6",
+      "name": "Corfu Old Town",
+      "city": "Corfu",
+      "description": "A UNESCO-listed town with Venetian, French, and British influences, featuring charming streets and historical sites.",
+      "address": "Corfu, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Corfu_Old_Town.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G7",
+      "name": "Navagio Beach (Shipwreck Beach)",
+      "city": "Zakynthos",
+      "description": "A stunning cove with turquoise waters, white sand, and the famous shipwreck remains.",
+      "address": "Navagio Beach, Zakynthos, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Navagio_Beach_Zakynthos_Greece.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G8",
+      "name": "Epidaurus Theatre",
+      "city": "Epidaurus",
+      "description": "An ancient Greek theatre renowned for its perfect acoustics and well-preserved structure.",
+      "address": "Epidaurus, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Epidaurus_Theatre.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G9",
+      "name": "Rhodes Old Town",
+      "city": "Rhodes",
+      "description": "A medieval town with well-preserved fortifications, cobbled streets, and the Palace of the Grand Master.",
+      "address": "Rhodes, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Rhodes_Old_Town.jpg",
+      "countryId": "7"
+    },
+    {
+      "id": "G10",
+      "name": "Mount Olympus",
+      "city": "Thessaly",
+      "description": "The mythical home of the Greek gods and the highest mountain in Greece, offering stunning hiking trails.",
+      "address": "Mount Olympus, Greece",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mount_Olympus_Greece.jpg",
+      "countryId": "7"
     }
   ],
   "historicalEvents": [
@@ -1634,64 +1886,71 @@
       "id": "1",
       "title": "French Revolution",
       "description": "A major uprising that reshaped France and Europe (1789-1799).",
-      "year": 1789
+      "year": 1789,
+      "eventId": "1"
     },
     {
       "id": "2",
       "title": "Napoleonic Wars",
       "description": "A series of wars led by Napoleon that reshaped Europe (1803-1815).",
-      "year": 1803
+      "year": 1803,
+      "eventId": "1"
     },
     {
       "id": "3",
       "title": "Fall of the Berlin Wall",
       "description": "Symbolized the end of the Cold War and German reunification (1989).",
-      "year": 1989
+      "year": 1989,
+      "eventId": "2"
     },
     {
       "id": "4",
       "title": "Formation of the German Empire",
       "description": "The unification of Germany under Otto von Bismarck (1871).",
-      "year": 1871
+      "year": 1871,
+      "eventId": "2"
     },
     {
       "id": "5",
       "title": "Battle of Grunwald",
       "description": "A decisive battle where the Polish-Lithuanian forces defeated the Teutonic Order (1410).",
-      "year": 1410
+      "year": 1410,
+      "eventId": "3"
     },
     {
       "id": "6",
       "title": "Act of Independence of Lithuania",
       "description": "Lithuania declared independence from Russia and Germany (1918).",
-      "year": 1918
+      "year": 1918,
+      "eventId": "3"
     },
     {
       "id": "7",
       "title": "Union of Lublin",
       "description": "The formation of the Polish-Lithuanian Commonwealth (1569).",
-      "year": 1569
+      "year": 1569,
+      "eventId": "4"
     },
     {
       "id": "8",
       "title": "Polish Constitution of 1791",
       "description": "The first modern constitution in Europe, introducing reforms (1791).",
       "year": 1791,
-      "countryId": 9
+      "eventId": "4"
     },
     {
       "id": "9",
       "title": "Spanish Reconquista",
       "description": "The long struggle to reclaim Spain from Moorish rule (711-1492).",
       "year": 1492,
-      "countryId": 11
+      "eventId": "5"
     },
     {
       "id": "10",
       "title": "Discovery of America",
       "description": "Christopher Columbus' voyage leading to the European discovery of the New World (1492).",
       "year": 1492,
-      "countryId": 11
+      "eventId": "5"
     }
   ],
   "sports": [
@@ -1775,7 +2034,8 @@
       "population": 125800000,
       "language": "Japanese",
       "touristRating": 9.4,
-      "description": "Known for its unique blend of tradition and modernity, Japan offers a rich cultural experience."
+      "description": "Known for its unique blend of tradition and modernity, Japan offers a rich cultural experience.",
+      "countryId": "4"
     },
     {
       "id": "italy",
@@ -1784,7 +2044,8 @@
       "population": 60260000,
       "language": "Italian",
       "touristRating": 9.3,
-      "description": "Italy is renowned for its historic landmarks, art, and world-famous cuisine."
+      "description": "Italy is renowned for its historic landmarks, art, and world-famous cuisine.",
+      "countryId": "3"
     },
     {
       "id": "newZealand",
@@ -1802,7 +2063,8 @@
       "population": 26000000,
       "language": "English",
       "touristRating": 9.1,
-      "description": "Australia offers unique wildlife, beautiful beaches, and vibrant cities."
+      "description": "Australia offers unique wildlife, beautiful beaches, and vibrant cities.",
+      "countryId": "6"
     },
     {
       "id": "france",
@@ -1811,7 +2073,9 @@
       "population": 67390000,
       "language": "French",
       "touristRating": 9.0,
-      "description": "France is famous for its art, culture, cuisine, and landmarks like the Eiffel Tower."
+      "description": "France is famous for its art, culture, cuisine, and landmarks like the Eiffel Tower.",
+      "countryId": "1",
+      "eventId": "1"
     },
     {
       "id": "canada",
@@ -1829,7 +2093,8 @@
       "population": 5370000,
       "language": "Norwegian",
       "touristRating": 8.8,
-      "description": "Norway is known for its breathtaking fjords and outdoor activities."
+      "description": "Norway is known for its breathtaking fjords and outdoor activities.",
+      "countryId": "5"
     },
     {
       "id": "iceland",
@@ -1847,7 +2112,8 @@
       "population": 46750000,
       "language": "Spanish",
       "touristRating": 8.6,
-      "description": "Spain is famous for its historic cities, beautiful beaches, and lively culture."
+      "description": "Spain is famous for its historic cities, beautiful beaches, and lively culture.",
+      "eventId": "5"
     },
     {
       "id": "greece",
@@ -1856,7 +2122,8 @@
       "population": 10423054,
       "language": "Greek",
       "touristRating": 8.5,
-      "description": "Greece is known for its ancient ruins, beautiful islands, and Mediterranean cuisine."
+      "description": "Greece is known for its ancient ruins, beautiful islands, and Mediterranean cuisine.",
+      "countryId": "7"
     },
     {
       "id": "unitedKingdom",
@@ -1893,6 +2160,17 @@
       "language": "Dutch",
       "touristRating": 8.1,
       "description": "The Netherlands is known for its picturesque canals, art museums, and cycling culture."
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "capital": "Berlin",
+      "population": 83100000,
+      "language": "German",
+      "touristRating": 8.5,
+      "description": "Famous for its rich history, beer, and cultural landmarks.",
+      "countryId": "2",
+      "eventId": "2"
     }
   ]
 }

@@ -23,7 +23,9 @@ const RatedCountriesList: React.FC = () => {
       {error && <p>{error}</p>}
       <ul>
         {bestRatedCountries.map((country: BestRatedCountry) => (
-          <RatedCountryItem key={country.id} {...country} />
+          <li key={country.id}>
+            <RatedCountryItem {...country} />
+          </li>
         ))}
       </ul>
     </div>

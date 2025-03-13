@@ -1,10 +1,4 @@
-import {
-  createContext,
-  ReactNode,
-  useContext,
-  useEffect,
-  useReducer,
-} from "react";
+import { createContext, ReactNode, useContext, useReducer } from "react";
 import { BestRatedCountry } from "../../components/Types";
 import {
   RatedCountriesActionTypes,

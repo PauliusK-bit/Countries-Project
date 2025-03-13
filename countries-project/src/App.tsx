@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation/Navigation";
 import HistoricalEventsPage from "./pages/HistoricalEventsPage/HistoricalEventsPage";
 import ContinentCountries from "./pages/ContinentCountries/ContinentCountries";
 import BestRatedCountriesPage from "./pages/BestRatedCountriesPage/BestRatedCountriesPage";
+import TouristAttractionsPage from "./pages/TouristAttractionsPage/TouristAttractionsPage";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           <Route
             path="bestRatedCountries"
             element={<BestRatedCountriesPage />}
+          />
+          <Route
+            path="touristAttractions/:countryId"
+            element={<TouristAttractionsPage />}
           />
         </Routes>
       </BrowserRouter>

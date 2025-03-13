@@ -36,7 +36,7 @@ export const HistoricalEventsPageContextProvider: React.FC<{
   const fetchEvents = async () => {
     try {
       dispatch({ type: EventActionTypes.FETCH });
-      const { data } = await axios("http://localhost:3000/historicalEvents");
+      const { data } = await axios(`${API_URL}/historicalEvents`);
 
       dispatch({ type: EventActionTypes.SUCCESS, payload: data });
     } catch (error) {

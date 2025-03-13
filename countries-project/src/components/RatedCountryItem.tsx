@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
 import styled from "styled-components";
 import { BestRatedCountry } from "./Types";
+import { Link } from "react-router";
 
 interface BestRatedCountryItemProps extends BestRatedCountry {}
 
@@ -22,8 +23,11 @@ const CountryName = styled.p`
 `;
 
 const CountryDetails = styled.p`
-  font-size: 14px;
-  color: #666;
+  font-size: 17px;
+  color: #72619e;
+  span {
+    color: #8f80b2;
+  }
 `;
 
 const RatedCountryItem: React.FC<BestRatedCountryItemProps> = ({
@@ -33,6 +37,8 @@ const RatedCountryItem: React.FC<BestRatedCountryItemProps> = ({
   language,
   touristRating,
   description,
+  countryId,
+  eventId,
 }) => {
   return (
     <CountryContainer className="bg-success-content">
@@ -48,8 +54,28 @@ const RatedCountryItem: React.FC<BestRatedCountryItemProps> = ({
       <CountryDetails>
         Languages: <span>{language}</span>
       </CountryDetails>
-      <CountryDetails>Rating: {touristRating}/10⭐ </CountryDetails>
-      <CountryDetails>Description: {description}</CountryDetails>
+      <CountryDetails>
+        Rating: <span>{touristRating}/10⭐</span>{" "}
+      </CountryDetails>
+      <CountryDetails>
+        Description: <span>{description}</span>{" "}
+      </CountryDetails>
+      {countryId && (
+        <Link
+          className="link link-hover"
+          to={`/touristAttractions/${countryId}`}
+        >
+          Tourist Attractions
+        </Link>
+      )}
+      {eventId && (
+        <Link
+          style={{ marginLeft: "20px" }}
+          to={`/historicalEvents/${eventId}`}
+        >
+          Historical Events
+        </Link>
+      )}
     </CountryContainer>
   );
 };
