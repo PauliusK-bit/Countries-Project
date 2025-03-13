@@ -20,7 +20,6 @@
     },
     {
       "id": 3,
-
       "name": "Europe",
       "countriesCount": 44,
       "areaKm2": 10180000,
@@ -44,7 +43,7 @@
       "areaKm2": 17840000,
       "population": 423000000,
       "continentId": 4,
-      "image": "https://www.whatarethe7continents.com/wp-content/uploads/2011/12/continent-of-south-america.png"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/800px-South_America_%28orthographic_projection%29.svg.png"
     },
     {
       "id": 6,
@@ -64,7 +63,7 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnzOZcyUCNpSWNeEWRtOnsXFimlpnLu7nA4g&s"
     }
   ],
-  "countries": [
+  "AllWorldCountries": [
     {
       "id": 1,
       "name": "Albania",
@@ -175,8 +174,7 @@
       "name": "France",
       "capital": "Paris",
       "continentId": 3,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png",
-      "countryId": 1
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/6/62/Flag_of_France.png"
     },
     {
       "id": 17,
@@ -262,7 +260,8 @@
       "name": "Lithuania",
       "capital": "Vilnius",
       "continentId": 3,
-      "flag": "https://www.worldometers.info/img/flags/small/tn_lh-flag.gif"
+      "flag": "https://www.worldometers.info/img/flags/small/tn_lh-flag.gif",
+      "countryId": 7
     },
     {
       "id": 29,
@@ -325,7 +324,8 @@
       "name": "Poland",
       "capital": "Warsaw",
       "continentId": 3,
-      "flag": "https://www.worldometers.info/img/flags/small/tn_pl-flag.gif"
+      "flag": "https://www.worldometers.info/img/flags/small/tn_pl-flag.gif",
+      "countryId": 9
     },
     {
       "id": 38,
@@ -381,7 +381,8 @@
       "name": "Spain",
       "capital": "Madrid",
       "continentId": 3,
-      "flag": "https://www.worldometers.info/img/flags/small/tn_sp-flag.gif"
+      "flag": "https://www.worldometers.info/img/flags/small/tn_sp-flag.gif",
+      "countryId": 11
     },
     {
       "id": 46,
@@ -1591,6 +1592,307 @@
       "address": "Liguria, Italy",
       "image": "https://media.istockphoto.com/id/479824818/photo/beautiful-colorful-cityscape.jpg?s=612x612&w=0&k=20&c=N-AYYwXLDXQC10uTu7SBYEpBrQIGi3pHuwNbOLuAETw=",
       "countryId": 3
+    },
+    {
+      "id": 13,
+      "name": "Mount Fuji",
+      "description": "The highest mountain in Japan and one of the country's most iconic symbols.",
+      "image": "https://res.cloudinary.com/jnto/image/upload/w_750,h_503,fl_lossy,f_auto/v1531981666/fujiguide/SG010_6",
+      "countryId": 4
+    },
+    {
+      "id": 14,
+      "name": "Kyoto Temples",
+      "description": "Historic temples and gardens reflecting Japan's rich cultural heritage.",
+      "image": "https://www.tripsavvy.com/thmb/ANwL84MhMA-jShq3HkXedD0wSck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-530105220-5c337bae46e0fb00012fcdfb.jpg",
+      "countryId": 4
+    },
+    {
+      "id": 15,
+      "name": "Tokyo Tower",
+      "description": "An iconic TV tower offering stunning views of the city skyline.",
+      "image": "https://asset.japan.travel/image/upload/v1646014276/tokyo/H_00658_001.jpg",
+      "countryId": 4
+    },
+    {
+      "id": 16,
+      "name": "Hiroshima Peace Memorial Museum",
+      "description": "A museum dedicated to the history of the Hiroshima bombing and the importance of peace.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1j5qluwBetuPSHMUhQ23au8kb7EkeEXl3hg&s",
+      "countryId": 4
+    },
+    {
+      "id": 17,
+      "name": "Osaka Castle",
+      "description": "A famous historical castle surrounded by beautiful parks and gardens.",
+      "image": "https://www.japan-guide.com/g18/4000_top.jpg",
+      "countryId": 4
+    }
+  ],
+  "historicalEvents": [
+    {
+      "id": "1",
+      "title": "French Revolution",
+      "description": "A major uprising that reshaped France and Europe (1789-1799).",
+      "year": 1789
+    },
+    {
+      "id": "2",
+      "title": "Napoleonic Wars",
+      "description": "A series of wars led by Napoleon that reshaped Europe (1803-1815).",
+      "year": 1803
+    },
+    {
+      "id": "3",
+      "title": "Fall of the Berlin Wall",
+      "description": "Symbolized the end of the Cold War and German reunification (1989).",
+      "year": 1989
+    },
+    {
+      "id": "4",
+      "title": "Formation of the German Empire",
+      "description": "The unification of Germany under Otto von Bismarck (1871).",
+      "year": 1871
+    },
+    {
+      "id": "5",
+      "title": "Battle of Grunwald",
+      "description": "A decisive battle where the Polish-Lithuanian forces defeated the Teutonic Order (1410).",
+      "year": 1410
+    },
+    {
+      "id": "6",
+      "title": "Act of Independence of Lithuania",
+      "description": "Lithuania declared independence from Russia and Germany (1918).",
+      "year": 1918
+    },
+    {
+      "id": "7",
+      "title": "Union of Lublin",
+      "description": "The formation of the Polish-Lithuanian Commonwealth (1569).",
+      "year": 1569
+    },
+    {
+      "id": "8",
+      "title": "Polish Constitution of 1791",
+      "description": "The first modern constitution in Europe, introducing reforms (1791).",
+      "year": 1791,
+      "countryId": 9
+    },
+    {
+      "id": "9",
+      "title": "Spanish Reconquista",
+      "description": "The long struggle to reclaim Spain from Moorish rule (711-1492).",
+      "year": 1492,
+      "countryId": 11
+    },
+    {
+      "id": "10",
+      "title": "Discovery of America",
+      "description": "Christopher Columbus' voyage leading to the European discovery of the New World (1492).",
+      "year": 1492,
+      "countryId": 11
+    }
+  ],
+  "sports": [
+    {
+      "id": "sport1",
+      "nationalSport": "Football",
+      "famousAthletes": ["Zinedine Zidane", "Kylian Mbappé"],
+      "majorTournaments": ["UEFA Euro", "FIFA World Cup"],
+      "sportId": "1"
+    },
+    {
+      "id": "sport2",
+      "nationalSport": "Football",
+      "famousAthletes": ["Pelé", "Neymar"],
+      "majorTournaments": ["Copa América", "FIFA World Cup"],
+      "sportId": "2"
+    },
+    {
+      "id": "sport3",
+      "nationalSport": "Ice Hockey",
+      "famousAthletes": ["Wayne Gretzky", "Sidney Crosby"],
+      "majorTournaments": ["NHL Stanley Cup", "Olympic Games"],
+      "sportId": "3"
+    },
+    {
+      "id": "sport4",
+      "nationalSport": "Baseball",
+      "famousAthletes": ["Ichiro Suzuki", "Shohei Ohtani"],
+      "majorTournaments": ["World Baseball Classic", "Olympic Games"],
+      "sportId": "4"
+    }
+  ],
+  "musicAndArt": [
+    {
+      "id": "art1",
+      "famousArtists": ["Claude Monet", "Edith Piaf", "Camille Saint-Saëns"],
+      "traditionalMusicStyles": [
+        "Chanson",
+        "French classical music",
+        "Folk music"
+      ],
+      "bestMovies": ["Amélie", "La Haine", "The Intouchables"]
+    },
+    {
+      "id": "art2",
+      "famousArtists": [
+        "Tarsila do Amaral",
+        "Candido Portinari",
+        "Di Cavalcanti"
+      ],
+      "traditionalMusicStyles": ["Samba", "Bossa Nova", "Choro"],
+      "bestMovies": ["City of God", "The Host", "Central Station"]
+    },
+    {
+      "id": "art3",
+      "famousArtists": ["Leonardo da Vinci", "Michelangelo", "Caravaggio"],
+      "traditionalMusicStyles": ["Opera", "Classical music", "Folk music"],
+      "bestMovies": ["La Dolce Vita", "The Godfather", "Life is Beautiful"]
+    },
+    {
+      "id": "art4",
+      "famousArtists": ["Hokusai", "Yayoi Kusama", "Takashi Murakami"],
+      "traditionalMusicStyles": ["Gagaku", "Shamisen", "Enka"],
+      "bestMovies": ["Spirited Away", "Seven Samurai", "Ringu"]
+    }
+  ],
+  "bestRatedCountries": [
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "capital": "Bern",
+      "population": 8610000,
+      "language": "German, French, Italian, Romansh",
+      "touristRating": 9.5,
+      "description": "Switzerland is famous for its beautiful landscapes, mountains, and high quality of life."
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "capital": "Tokyo",
+      "population": 125800000,
+      "language": "Japanese",
+      "touristRating": 9.4,
+      "description": "Known for its unique blend of tradition and modernity, Japan offers a rich cultural experience."
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "capital": "Rome",
+      "population": 60260000,
+      "language": "Italian",
+      "touristRating": 9.3,
+      "description": "Italy is renowned for its historic landmarks, art, and world-famous cuisine."
+    },
+    {
+      "id": "newZealand",
+      "name": "New Zealand",
+      "capital": "Wellington",
+      "population": 5084300,
+      "language": "English, Māori",
+      "touristRating": 9.2,
+      "description": "New Zealand is known for its stunning natural scenery and adventure tourism opportunities."
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "capital": "Canberra",
+      "population": 26000000,
+      "language": "English",
+      "touristRating": 9.1,
+      "description": "Australia offers unique wildlife, beautiful beaches, and vibrant cities."
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "capital": "Paris",
+      "population": 67390000,
+      "language": "French",
+      "touristRating": 9.0,
+      "description": "France is famous for its art, culture, cuisine, and landmarks like the Eiffel Tower."
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "capital": "Ottawa",
+      "population": 38008005,
+      "language": "English, French",
+      "touristRating": 8.9,
+      "description": "Canada is celebrated for its vast natural beauty and diverse cultural landscape."
+    },
+    {
+      "id": "norway",
+      "name": "Norway",
+      "capital": "Oslo",
+      "population": 5370000,
+      "language": "Norwegian",
+      "touristRating": 8.8,
+      "description": "Norway is known for its breathtaking fjords and outdoor activities."
+    },
+    {
+      "id": "iceland",
+      "name": "Iceland",
+      "capital": "Reykjavík",
+      "population": 364000,
+      "language": "Icelandic",
+      "touristRating": 8.7,
+      "description": "Iceland offers otherworldly landscapes, geothermal hot springs, and the Northern Lights."
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "capital": "Madrid",
+      "population": 46750000,
+      "language": "Spanish",
+      "touristRating": 8.6,
+      "description": "Spain is famous for its historic cities, beautiful beaches, and lively culture."
+    },
+    {
+      "id": "greece",
+      "name": "Greece",
+      "capital": "Athens",
+      "population": 10423054,
+      "language": "Greek",
+      "touristRating": 8.5,
+      "description": "Greece is known for its ancient ruins, beautiful islands, and Mediterranean cuisine."
+    },
+    {
+      "id": "unitedKingdom",
+      "name": "United Kingdom",
+      "capital": "London",
+      "population": 68200000,
+      "language": "English",
+      "touristRating": 8.4,
+      "description": "The UK offers rich history, iconic landmarks, and diverse cultural experiences."
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "capital": "Singapore",
+      "population": 5700000,
+      "language": "English, Mandarin, Malay, Tamil",
+      "touristRating": 8.3,
+      "description": "Singapore is a global financial hub known for its cleanliness, modern architecture, and gardens."
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "capital": "Stockholm",
+      "population": 10000000,
+      "language": "Swedish",
+      "touristRating": 8.2,
+      "description": "Sweden is famous for its beautiful nature, progressive society, and innovative culture."
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "capital": "Amsterdam",
+      "population": 17100000,
+      "language": "Dutch",
+      "touristRating": 8.1,
+      "description": "The Netherlands is known for its picturesque canals, art museums, and cycling culture."
     }
   ]
 }

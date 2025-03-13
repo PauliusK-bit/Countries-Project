@@ -3,7 +3,7 @@ import { API_URL } from "../api/config";
 
 export const fetchAllCountries = async () => {
   try {
-    const { data } = await axios(`${API_URL}/countries`);
+    const { data } = await axios(`${API_URL}/AllWorldCountries`);
     return data;
   } catch {
     console.log(Error);

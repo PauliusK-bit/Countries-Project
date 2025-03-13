@@ -17,8 +17,27 @@ export interface Continent {
   areaKm2: number;
   population: number;
   image: string;
+  continentId: number;
 }
 
 export interface ContinentProps {
   data: Continent;
+}
+
+export interface HistoricalEvent {
+  id: string;
+  title: string;
+  description: string;
+  year: number;
+}
+
+export interface BestRatedCountry {
+  id: string;
+  name: string;
+  capital: string;
+  population: number;
+  language: string;
+  touristRating: number;
+  description: string;
+  flag: string;
 }
