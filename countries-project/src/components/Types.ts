@@ -43,6 +43,7 @@ export interface BestRatedCountry {
   flag: string;
   countryId: string;
   eventId: string;
+  sportId: string;
 }
 
 export interface TouristAttraction {
@@ -52,4 +53,29 @@ export interface TouristAttraction {
   description: string;
   address: string;
   image: string;
+}
+
+export interface CreatedHistoricalEvent {
+  title: string;
+  description: string;
+  year: number;
+  id: string;
+}
+
+export interface CreatedCountry {
+  name: string;
+  capital: string;
+  flag: string;
+  id: string;
+}
+
+export interface Sport {
+  country: string;
+  nationalSport: string;
+  famousAthletes: string[];
+  majorTournaments: string[];
+}
+
+export interface SportProps {
+  data: Sport;
 }

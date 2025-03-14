@@ -46,6 +46,16 @@ const Navigation = () => {
         >
           Best Rated Countries
         </NavLink>
+        <NavLink
+          className="btn btn-ghost text-xl"
+          to={"createdHistoricalEvents"}
+          end
+        >
+          Historical Events
+        </NavLink>
+        <NavLink className="btn btn-ghost text-xl" to={"createdCountries"} end>
+          Countries
+        </NavLink>
       </div>
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">

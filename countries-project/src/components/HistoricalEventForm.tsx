@@ -1,28 +1,41 @@
+import axios from "axios";
 import { useState } from "react";
-import { useHistoricalEvents } from "../pages/HistoricalEventsPage/HistoricalEventsPageContextProvider";
-import { HistoricalEvent } from "./Types";
+import { API_URL } from "../api/config";
+import { CreatedHistoricalEvent } from "./Types";
 
-const HistoricalEventForm: React.FC = () => {
-  const { addEvent } = useHistoricalEvents();
-
+const HistoricalEventForm: React.FC = ({}) => {
   const [title, setTitle] = useState("");
-  const [year, setYear] = useState<number | undefined>(undefined);
+  const [year, setYear] = useState<number>();
   const [description, setDescription] = useState("");
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
 
-    const newEvent: HistoricalEvent = {
+    if (!title || !year || !description) {
+      setError("All fields are required.");
+      return;
+    }
+
+    const newEvent: CreatedHistoricalEvent = {
       title,
-      year: year ?? 0,
+      year,
       description,
     };
 
-    addEvent(newEvent);
+    try {
+      const { data } = await axios.post(
+        `${API_URL}/createdHistoricalEvents`,
+        newEvent
+      );
 
-    setTitle("");
-    setYear(undefined);
-    setDescription("");
+      setTitle("");
+      setYear(undefined);
+      setDescription("");
+      setError(null);
+    } catch {
+      setError("Something went wrong");
+    }
   };
 
   return (
@@ -33,6 +46,7 @@ const HistoricalEventForm: React.FC = () => {
       <div className="form-control" style={{ marginBottom: "10px" }}>
         <label htmlFor="title">Title:</label>
         <input
+          className="bg-base-300"
           type="text"
           id="title"
           value={title}
@@ -45,7 +59,7 @@ const HistoricalEventForm: React.FC = () => {
       <div className="form-control" style={{ marginBottom: "10px" }}>
         <label htmlFor="year">Year:</label>
         <input
-          type="number"
+          className="bg-base-300"
           id="year"
           value={year}
           onChange={(e) => setYear(Number(e.target.value))}
@@ -57,6 +71,7 @@ const HistoricalEventForm: React.FC = () => {
       <div className="form-control" style={{ marginBottom: "10px" }}>
         <label htmlFor="description">Description:</label>
         <textarea
+          className="bg-base-300"
           id="description"
           value={description}
           onChange={(e) => setDescription(e.target.value)}

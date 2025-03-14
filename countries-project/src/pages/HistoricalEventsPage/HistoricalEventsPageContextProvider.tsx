@@ -14,7 +14,7 @@ interface HistoricalEventsContextType {
   loading: boolean;
   error: string;
   fetchEvents: () => Promise<void>;
-  addEvent: (event: HistoricalEvent) => Promise<void>;
+  // addEvent: (event: HistoricalEvent) => Promise<void>;
   deleteEvent: (id: string) => Promise<void>;
   editEvent: (event: HistoricalEvent) => Promise<void>;
 }
@@ -47,17 +47,17 @@ export const HistoricalEventsPageContextProvider: React.FC<{
     }
   };
 
-  const addEvent = async (newEvent: HistoricalEvent) => {
-    try {
-      const { data } = await axios.post(
-        `${API_URL}/historicalEvents`,
-        newEvent
-      );
-      dispatch({ type: EventActionTypes.ADD_EVENT, payload: data });
-    } catch (error) {
-      dispatch({ type: EventActionTypes.FAIL, payload: "Failed to add event" });
-    }
-  };
+  // const addEvent = async (newEvent: HistoricalEvent) => {
+  //   try {
+  //     const { data } = await axios.post(
+  //       `${API_URL}/historicalEvents`,
+  //       newEvent
+  //     );
+  //     dispatch({ type: EventActionTypes.ADD_EVENT, payload: data });
+  //   } catch (error) {
+  //     dispatch({ type: EventActionTypes.FAIL, payload: "Failed to add event" });
+  //   }
+  // };
 
   const deleteEvent = async (id: string) => {
     console.log("Deleting event id:", id);
@@ -93,7 +93,7 @@ export const HistoricalEventsPageContextProvider: React.FC<{
     loading,
     error,
     fetchEvents,
-    addEvent,
+    // addEvent,
     deleteEvent,
     editEvent,
   };

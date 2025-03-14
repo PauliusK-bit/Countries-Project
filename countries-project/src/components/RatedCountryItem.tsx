@@ -39,6 +39,7 @@ const RatedCountryItem: React.FC<BestRatedCountryItemProps> = ({
   description,
   countryId,
   eventId,
+  sportId,
 }) => {
   return (
     <CountryContainer className="bg-success-content">
@@ -70,10 +71,20 @@ const RatedCountryItem: React.FC<BestRatedCountryItemProps> = ({
       )}
       {eventId && (
         <Link
+          className="link link-hover"
           style={{ marginLeft: "20px" }}
           to={`/historicalEvents/${eventId}`}
         >
           Historical Events
+        </Link>
+      )}
+      {sportId && (
+        <Link
+          className="link link-hover"
+          style={{ marginLeft: "20px" }}
+          to={`/sports/${sportId}`}
+        >
+          Most Popular sports
         </Link>
       )}
     </CountryContainer>

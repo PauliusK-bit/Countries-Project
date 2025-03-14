@@ -1,4 +1,5 @@
-import { Link, useNavigate } from "react-router";
+/* eslint-disable @typescript-eslint/no-empty-object-type */
+import { useNavigate } from "react-router";
 import { useHistoricalEvents } from "../pages/HistoricalEventsPage/HistoricalEventsPageContextProvider";
 import { HistoricalEvent } from "./Types";
 
